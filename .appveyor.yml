@@ -7,7 +7,7 @@ branches:
 build: off
 
 install:
-  - ps: $App = Start-Process -FilePath java -ArgumentList "-jar ./artifacts/app-card-delivery.jar" -PassThru
+  - ps: $App = Start-Process -FilePath java -ArgumentList "-jar ./artifacts/app-ibank.jar" -PassThru
 
 build_script:
   - ps: chmod +x gradlew
